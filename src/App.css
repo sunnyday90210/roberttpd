@@ -1,0 +1,115 @@
+body {
+  background: #fafafa;
+}
+
+.container {
+  background-color: white;
+  margin-top: 100px;
+  margin-bottom: 38px;
+  border-radius: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+tbody {
+  color: #001745;
+}
+.resent-orders {
+  display: flex;
+  align-items: center;
+  height: 58px;
+}
+
+.resent-orders-text {
+  font-size: 14px;
+  margin-left: 23px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #001745;
+}
+
+.resent-orders-arrow {
+  color: #d8dce2;
+}
+
+.customer-header {
+  background-color: #f6f6f6;
+  color: #7b8b9a;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.patient-name {
+  font-weight: 600;
+  font-size: 16.5px;
+}
+
+.order-date {
+  padding-left: 0 !important;
+  font-size: 15px;
+}
+
+.meta-data {
+  font-size: 15px;
+}
+
+.medication {
+  font-size: 14.5px;
+}
+
+.btn-details {
+  color: #001745;
+  font-size: 13px;
+  font-weight: bold;
+  background-color: #f6f6f6;
+  border: 1px solid #d4d4d4;
+  border-radius: 32px;
+  width: 96px !important;
+  height: 39px !important;
+  text-transform: uppercase;
+}
+.btn-details:hover {
+  color: white;
+  background-color: #44bdd0;
+  border: 1px solid #46adbd;
+}
+
+.btn-showmore {
+  color: #44bdd0;
+  font-size: 13px;
+  font-weight: bold;
+  background-color: #f6f6f6;
+  border: 1px solid #44bdd0;
+  border-radius: 32px;
+  width: 109px !important;
+  height: 39px !important;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.btn-showmore:hover {
+  color: white;
+  background-color: #44bdd0;
+  border: 1px solid #46adbd;
+}
+
+.dot {
+  margin: 0 !important;
+  padding: 0 0 7px 0 !important;
+  text-align: center;
+  font-size: 27px;
+}
+.red {
+  color: #e1656f;
+}
+
+.green {
+  color: #4ab641;
+}
+
+.blue {
+  color: #44bdd0;
+}
