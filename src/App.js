@@ -27,13 +27,12 @@ class App extends Component {
       this.setState({ searchfield: event.target.value })
     }
 
-
-
+    
    
       
   render() {
     const filteredCustomers = this.state.customers.filter(customer => {
-      return customer.patientName.toLowerCase().includes(this.state.searchfield.toLowerCase())
+      return customer.patientName.toLowerCase().includes(this.state.searchfield.toLowerCase()) || customer.medication.toLowerCase().includes(this.state.searchfield.toLowerCase())
     })
     return (
       <div>

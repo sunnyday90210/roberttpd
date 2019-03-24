@@ -15,7 +15,7 @@ const CustomerTable = ({ customers }) => {
             Resent orders <span className="resent-orders-arrow">&#9660;</span>
           </p>
         </div>
-        <Table>
+        <Table responsive>
           <thead>
             <tr className="customer-header">
               <th />
@@ -71,5 +71,6 @@ const CustomerTable = ({ customers }) => {
     </React.Fragment>
   );
 };
+
 
 export default CustomerTable;

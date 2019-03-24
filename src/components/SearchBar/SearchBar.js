@@ -5,14 +5,13 @@ import './searchbar.css';
 const SearchBar = ({ searchChange }) => {
      
   return (
-    <div className="search-field">
-      <input
-        className="d-block mx-auto mt-5"
+    <div className="search-field d-block mx-auto">
+        <span className="search-icon"><i className="fas fa-search"></i></span>
+      <input id="searchbox" 
         type="search"
         placeholder="Search Patients"
         onChange={searchChange}
       />
-      <span className="search-icon"><i class="fas fa-search"></i></span>
     </div>
   );
 };
